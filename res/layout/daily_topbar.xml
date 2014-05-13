@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/fragment_bottom_normal" android:layout_width="fill_parent" android:layout_height="45.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="left|center" android:id="@+id/topbar_img_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/daily_maintab_toolbar_back" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:id="@+id/topbar_ll_center" android:layout_width="wrap_content" android:layout_height="45.0dip">
+        <TextView android:textSize="20.0dip" android:textColor="@android:color/white" android:id="@+id/topbar_tv_center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@+string/home_all" />
+        <TextView android:textSize="12.0sp" android:textColor="#fffc8800" android:gravity="top|right|center" android:id="@+id/topbar_number" android:paddingTop="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="45.0dip" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/topbar_img_arrow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:src="@drawable/daily_maintab_toolbar_down" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="right|center" android:id="@+id/topbar_img_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/daily_maintab_toolbar_new" />
+</FrameLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">快销云</string>
+    <string name="title_activity_ding">快销云-确认订单</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">设置</string>
+    <string name="title_activity_diqu">快销云-商家列表</string>
+    <string name="title_activity_map">快销云</string>
+    <string name="title_activity_canting">快销云-商家详情</string>
+    <string name="title_activity_cantingjianjie">快销云-商家简介</string>
+    <string name="title_activity_diancai">快销云-预订</string>
+    <string name="title_activity_register">快销云-用户登录</string>
+    <string name="title_activity_star">快销云</string>
+    <string name="title_activity_star_textview1">快销云</string>
+    <string name="title_activity_star_textview2">Sales Could System beta1.0</string>
+    <string name="title_activity_star_textview3">该客户端系统为android4.0 版本1.0 Copyright:2014 作者:杨大志</string>
+    <string name="title_activity_usercenter">快销云-个人中心</string>
+    <string name="title_activity_about">关于快销云</string>
+    <string name="button_submit">确认下单</string>
+    <string name="title_activity_jindian">快销云-热销产品</string>
+    <string name="action_settings">设置</string>
+    <string name="title_activity_article">快销云-活动详情</string>
+    <string name="title_activity_submit">快销云-提交订单</string>
+    <string name="about"><Data>
+<![CDATA[2000年5月20日，快销云在北京CBD国际贸易中心成立。<br />
+<br />
+历经多年的积累和发展，截至2012年9月底，快销云已遍布中国十五个省份、十八个城市，拥有近800家集团客户，成为国内领先的云销售管理企业。<br />
+<br />
+“时尚、经典、品位、尊崇”的经营理念，是快销云独具特色的企业精神。致力于打造一个世界级的云品牌是快销云持久追求的目标。 ]]>
+</Data></string>
+    <string name="title_activity_help">快销云-帮助</string>
+    <string name="help"><Data>
+<![CDATA[ <p>● 系统概述</p>
+<p>快销云移动应用解决方案依据快销行业的发展需求及管理特点，为快销企业设计的一款信息化管理软件，对快销工作流程进行规范化、对企业管理进行精细化，对经营效益进行数据化。系统经过多年的实际应用和升级改进，功能完善、稳定高效，成为快销企业搭建信息化管理平台的首选。</p>
+<p> </p>
+<p>● 功能模块</p>
+<p><br />
+</p>
+<p> </p>
+<p><strong>● 系统特色</strong></p>
+<p>  ◇ 多样的客户管理：支持积分卡、会员卡、储值卡、贵宾卡等多种优惠折扣方式设置，灵活的升级规则设置；</p>
+<p>  ◇ 丰富的报表查询：营业数据、进货数据、库存数据、会员数据、员工数据、分店数据的精确统计，实时的报表分析，丰富的时段报表生成。</p>
+<p><br />
+</p>
+<p>● 硬件配置</p>
+<p>  ◇ 数据服务器</p>
+<p>  ◇ Pad/触摸屏/点菜宝</p>
+<p>  ◇ 收银打印机</p>
+<p>  ◇ 后厨打印机</p>
+<p>  ◇ 无线路由/基站 </p>
+<p>  ◇ 仓库电脑</p>
+<p>  ◇ 经理查询电脑</p>
+<p>  ◇ 连锁VPN软件客户端</p> ]]>
+</Data></string>
+    <string name="title_activity_lianxiren">推荐给朋友</string>
+    <string name="tuijian">推荐</string>
+    <string name="title_activity_dmanager">快销云-订单管理</string>
+    <string name="title_activity_system">快销云-系统设置</string>
+    <string name="item_dmanager_view1">客户信息：</string>
+    <string name="item_dmanager_view2">联系方式：</string>
+    <string name="item_dmanager_view4">送货地点：</string>
+    <string name="item_dmanager_view5">收货时间：</string>
+    <string name="item_dmanager_view6">共点菜数：</string>
+    <string name="item_dmanager_view7">总计金额：</string>
+    <string name="item_dmanager_view8">特殊要求：</string>
+    <string name="title_activity_dinglike">快销云-我的喜欢</string>
+    <string name="title_activity_jindianbutton1">订购</string>
+    <string name="title_activity_jindianbutton2">喜欢</string>
+    <string name="title_activity_usermemo">3333</string>
+    <string name="ssss">123</string>
+
+     <string name="title_activity_dailmenu">日常工作</string>
+     <string name="title_activity_cusmenu">客户拜访</string>
+     
+    <string name="prv">上一步</string>
+    <string name="next">下一步</string>
+    <string name="home">最新信息</string>
+    <string name="order">日常工作</string>
+    <string name="notice">客户拜访</string>
+    <string name="more">用户中心</string>
+    <string-array name="city_name">
+       <item>上海</item>
+       <item>南京</item>
+       <item>昆明</item>
+    </string-array>
+    <string name="province_label">选择省份</string>
+	<string name="city_label">选择城市</string>
+	<string name="area_label">选择城市</string>
+</resources>

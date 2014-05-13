@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/main_title_RelativeLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/fragment_bottom_normal"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/main_title_TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="主页"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+        </RelativeLayout>
+        <FrameLayout
+            android:id="@+id/main_detail_FrameLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffff" >
+        </FrameLayout>
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/bottom_fragment"
+        android:name="com.example.fragments.BottomFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

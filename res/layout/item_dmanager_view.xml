@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/item_dmanager_view_textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="客户信息：" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/item_dmanager_view_textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="联系方式：" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/item_dmanager_view_textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用餐人数：" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/item_dmanager_view_textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="就餐地点：" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/item_dmanager_view_textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="到店时间：" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/item_dmanager_view_textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="共点菜数：" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/item_dmanager_view_textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="总计金额：" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/item_dmanager_view_textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="特殊要求：" />
+    </LinearLayout>
+
+</LinearLayout>

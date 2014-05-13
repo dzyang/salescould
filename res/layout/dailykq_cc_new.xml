@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/bfdj_RelativeLayout_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fragment_bottom_normal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/daily_maintab_toolbar_back" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:text="出差申请"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:text="保存" />
+        </RelativeLayout>
+  		<LinearLayout
+               
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+				<TextView
+			        android:id="@+id/kq_dk_map_address"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="始发地："
+			        android:textAppearance="?android:attr/textAppearanceMedium" />
+               
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+			<LinearLayout 
+			    android:orientation="horizontal"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    >
+			
+				<Spinner
+			    android:id="@+id/spinnerProvince"
+			    android:prompt="@string/province_label"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    />
+			    		
+			    <Spinner
+			    android:id="@+id/spinnerCity"
+			    android:prompt="@string/city_label"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"			    
+			    />
+			    <Spinner
+			    android:id="@+id/spinnerRegion"
+			    android:prompt="@string/area_label"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    
+			    />
+			  
+			</LinearLayout>
+			            
+            
+            <LinearLayout
+               
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >				
+                <EditText
+                    android:id="@+id/dailykq_cc_srcAddr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10" />
+
+            </LinearLayout>
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="目的地："
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+               
+
+            </LinearLayout>
+			<LinearLayout 
+			    android:orientation="horizontal"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    >
+			
+				<Spinner
+			    android:id="@+id/dest_spinnerProvince"
+			    android:prompt="@string/province_label"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    />
+			    		
+			    <Spinner
+			    android:id="@+id/dest_spinnerCity"
+			    android:prompt="@string/city_label"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"			    
+			    />
+			    <Spinner
+			    android:id="@+id/dest_spinnerRegion"
+			    android:prompt="@string/area_label"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    
+			    />
+			  
+			</LinearLayout>
+			            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+               
+                <EditText
+                    android:id="@+id/dailykq_cc_destAddr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="开始日期："
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <EditText
+                    android:id="@+id/dailykq_cc_start_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/kq_dk_map_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="结束日期："
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <EditText
+                    android:id="@+id/dailykq_cc_end_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/kq_dk_map_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="出差事由："
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <EditText
+                    android:id="@+id/dailykq_cc_memo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="157dp"
+                    android:layout_weight="1"
+                    android:ems="10" >
+
+                    <requestFocus />
+                </EditText>
+            </LinearLayout>
+          
+        </LinearLayout>
+    </LinearLayout>
+
+    
+</LinearLayout>

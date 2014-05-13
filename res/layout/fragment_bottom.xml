@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <RadioButton
+        android:id="@+id/fragment_bottom_home"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/fragment_bottom_selector"
+        android:button="@null"
+        android:drawableTop="@drawable/main_readiobutton_home"
+        android:gravity="center"
+        android:text="@string/home"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:background="@color/white" />
+
+    <RadioButton
+        android:id="@+id/fragment_bottom_order"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/fragment_bottom_selector"
+        android:button="@null"
+        android:drawableTop="@drawable/main_readiobutton_order"
+        android:gravity="center"
+        android:text="@string/order"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:background="@color/white" 
+        />
+
+    <RadioButton
+        android:id="@+id/fragment_bottom_notice"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/fragment_bottom_selector"
+        android:button="@null"
+        android:drawableTop="@drawable/main_readiobutton_notice"
+        android:gravity="center"
+        android:text="@string/notice"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:background="@color/white" />
+
+    <RadioButton
+        android:id="@+id/fragment_bottom_more"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/fragment_bottom_selector"
+        android:button="@null"
+        android:drawablePadding="3dip"
+        android:drawableTop="@drawable/main_readiobutton_more"
+        android:gravity="center"
+        android:text="@string/more"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+</RadioGroup>

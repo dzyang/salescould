@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="35dp"
+        android:src="@android:drawable/stat_sys_phone_call" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/diqu_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="textview1"
+            android:textSize="26sp" />
+
+        <Button
+            android:id="@+id/diqu_tv2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@color/transparent"
+            android:focusable="false"
+            android:text="Button" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/diqu_imageView1"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:scaleType="center"
+        android:src="@android:drawable/ic_menu_gallery" />
+
+</LinearLayout>

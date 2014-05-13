@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<FrameLayout android:background="@drawable/fragment_bottom_normal" android:layout_width="fill_parent" android:layout_height="45.0dip">
+    <ImageView android:layout_gravity="left|center" android:id="@+id/topbar_img_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/daily_maintab_toolbar_back" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:id="@+id/topbar_ll_center" android:layout_width="wrap_content" android:layout_height="45.0dip">
+        <TextView android:textSize="20.0dip" android:textColor="@android:color/white" android:id="@+id/topbar_tv_center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="任务交办" />
+        <TextView android:textSize="12.0sp" android:textColor="#fffc8800" android:gravity="top|right|center" android:id="@+id/topbar_number" android:paddingTop="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="45.0dip" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/topbar_img_arrow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:src="@drawable/daily_maintab_toolbar_down" />
+    </LinearLayout>
+   
+</FrameLayout>
+    <!-- RelativeLayout
+        android:id="@+id/bfdj_RelativeLayout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fragment_bottom_normal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/daily_maintab_toolbar_back"
+            />
+
+         <TextView
+             android:id="@+id/textView1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+              android:layout_centerInParent="true"
+             android:layout_centerHorizontal="true"          
+             android:layout_centerVertical="true"
+             android:text="任务交办"
+             android:textColor="@android:color/white"
+             android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </RelativeLayout-->
+
+  <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical" >
+
+          <ListView
+
+        android:id="@+id/list"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="0dip"
+
+        android:layout_weight="1" >
+
+    </ListView>
+
+    </LinearLayout>
+
+</LinearLayout>
+   
+</LinearLayout>

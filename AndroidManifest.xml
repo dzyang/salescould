@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myfood"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="14" />
+    
+    <!-- sd卡读取权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 读取联系人权限 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- 拨打电话权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+   
+    <!-- 访问网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- 百度地图相关权限 -->
+    <permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+   
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <!-- SDK1.5需要android.permission.GET_TASKS权限判断本程序是否为当前运行的应用? -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- 来电消音 -->
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <!-- 完全退出程序权限 -->
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+ 	<uses-feature android:name="android.hardware.camera"/>
+ 	<uses-feature android:name="android.hardware.camera.autofocus"/>
+    
+    <application
+        android:name="com.example.utils.myapplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.myfood.MainActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="com.example.myfood.DingActivity"
+            android:label="@string/title_activity_ding">
+        </activity>
+        <activity
+            android:name="com.example.myfood.DiquActivity"
+            android:label="@string/title_activity_diqu">
+        </activity>
+        <activity
+            android:name="com.example.myfood.MapActivity"
+            android:label="@string/title_activity_map">
+        </activity>
+        <activity
+            android:name="com.example.myfood.CantingActivity"
+            android:label="@string/title_activity_canting">
+        </activity>
+        <activity
+            android:name="com.example.myfood.CantingjianjieActivity"
+            android:label="@string/title_activity_cantingjianjie"
+            android:theme="@style/Holo">
+        </activity>
+        <activity
+            android:name="com.example.myfood.DiancaiActivity"
+            android:label="@string/title_activity_diancai">
+        </activity>
+        <activity
+            android:name="com.example.myfood.RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:theme="@style/Holo">
+        </activity>
+        <activity
+            android:name="com.example.myfood.LoginActivity"
+            android:label="@string/title_activity_register"
+            android:theme="@style/Holo">
+        </activity>
+        <activity
+            android:name="com.example.myfood.StarActivity"
+            android:label="@string/title_activity_star"
+            android:theme="@style/Holodnoframe">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.fragments.MainFragment"
+            android:label="@string/app_name"
+            android:theme="@style/Holodnoframe"
+         >           
+        </activity>
+        <activity android:name="com.example.view.ActivityMain"></activity>
+        <activity android:name="com.example.ui.SlidingActivity"></activity>
+        <activity
+            android:name="com.example.myfood.UsercenterActivity"
+            android:label="@string/title_activity_usercenter"
+            android:theme="@style/Holo">
+        </activity>
+        <activity
+            android:name="com.example.myfood.AboutActivity"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/title_activity_about"
+            android:theme="@style/Holo">
+        </activity>
+        <activity
+            android:name="com.example.myfood.JindianActivity"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/title_activity_jindian"
+            android:theme="@style/Holo">
+        </activity>
+        <activity
+            android:name="com.example.myfood.ArticleActivity"
+            android:label="@string/title_activity_article">
+        </activity>
+        <activity
+            android:name="com.example.myfood.SubmitActivity"
+            android:label="@string/title_activity_submit">
+        </activity>
+        <!-- 百度定位权限 -->
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote">
+        </service>
+        <activity
+            android:name="com.example.myfood.HelpActivity"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/title_activity_help"
+            android:theme="@style/Holo">
+        </activity>
+        <activity
+            android:name="com.example.myfood.LianxirenActivity"
+            android:label="@string/title_activity_lianxiren">
+        </activity>
+        <activity
+            android:name="com.example.myfood.DmanagerActivity"
+            android:label="@string/title_activity_dmanager"
+            android:theme="@style/Holodrack">
+        </activity>
+        <activity
+            android:name="com.example.myfood.SystemActivity"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/title_activity_system"
+            android:theme="@style/Holo">
+        </activity>
+        <activity
+            android:name="com.example.myfood.DinglikeActivity"
+            android:label="@string/title_activity_dinglike"
+            android:theme="@style/Holodrack">
+        </activity>
+        <activity
+            android:name="com.example.myfood.UsermemoActivity"
+            android:label="@string/title_activity_usermemo">
+        </activity>
+         <activity
+            android:name="com.example.control.dailymainmenu"
+            android:label="@string/title_activity_dailmenu">
+        </activity>
+        <activity
+            android:name="com.example.control.cusmainmenu"
+            android:label="@string/title_activity_cusmenu">
+        </activity>
+        
+        <activity  android:name="com.example.custom.BfdjActivity"  />
+        <activity  android:name="com.example.custom.BfjlActivity"  />
+        <activity  android:name="com.example.custom.KhActivity"  />
+        <activity  android:name="com.example.custom.KhbzActivity"  />
+        <activity  android:name="com.example.custom.KhglActivity"  />
+        <activity  android:name="com.example.custom.KhtxlActivity"  />        
+        <activity  android:name="com.example.custom.KhaddActivity"  />        
+         <activity  android:name="com.example.custom.KhtxladdActivity"  />        
+        
+        <activity  android:name="com.example.daily.DailyReortActivity"  />
+        <activity  android:name="com.example.daily.DailyKqActivity"  />        
+        <activity  android:name="com.example.daily.DailyKqDkActivity"  />
+        <activity  android:name="com.example.daily.DailyKqDkMapActivity"  />
+        
+        <activity  android:name="com.example.daily.DailyKqCcActivity"  />
+        <activity  android:name="com.example.daily.DailyKqCcAddActivity"  />
+        <activity  android:name="com.example.daily.DailyKqWcActivity"  />
+        <activity  android:name="com.example.daily.DailyKqWcAddActivity"  />
+        <activity  android:name="com.example.daily.DailyKqQjActivity"  />
+        <activity  android:name="com.example.daily.DailyKqQjAddActivity"  />
+        <activity  android:name="com.example.daily.DailyKqJbActivity"  />    
+        <activity  android:name="com.example.daily.DailyKqJbAddActivity"  />        
+
+        <activity  android:name="com.example.daily.DailyTaskActivity"  />
+        <activity  android:name="com.example.daily.DailyTaskListAllActivity"  />
+        <activity  android:name="com.example.daily.DailyTaskListFinshActivity"  />
+        <activity  android:name="com.example.daily.DailyTaskListWaitActivity"  />
+        <activity  android:name="com.example.daily.DailyTaskNewActivity"  />
+           
+        <activity  android:name="com.example.daily.DailyFeeActivity"  />
+       	<activity  android:name="com.example.daily.DailyFeeListActivity"  />       
+        <activity  android:name="com.example.daily.DailyFeeNewActivity"  />
+
+        <service android:name="com.example.myfood.MyService"></service>
+    </application>
+
+</manifest>
